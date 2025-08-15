@@ -1,0 +1,34 @@
+<div id="top">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid top">
+      <a class="navbar-brand" href="<?php bloginfo('url'); ?>">
+        <img class="img-fluid img-center logo" src="<?php bloginfo('template_url'); ?>/img/logo.jpg">
+        <!-- <img class="img-fluid img-center logo" src="<?php //bloginfo('template_url'); ?>/img/logo-menor.jpg"> -->
+        <!-- <img class="img-fluid img-center logo" src="<?php //bloginfo('template_url'); ?>/img/logo-verde-claro.jpg"> -->
+        <!-- <img class="img-fluid img-center logo" src="<?php //bloginfo('template_url'); ?>/img/logo-cinza.jpg"> -->
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="<?php bloginfo('url'); ?>">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#quem-somos">Quem Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#especializacao">Áreas de Especialização</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resultados">Resultados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#artigos">Artigos e Insights</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
