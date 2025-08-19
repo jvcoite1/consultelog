@@ -42,7 +42,9 @@ a:active {
 /*************************************** top.php ****************************************/
 
 #top {
-  background-color: #006cbb;
+  background: linear-gradient(126deg,rgba(0, 157, 255, 1) 0%, rgba(0, 67, 122, 1) 75%);
+  color: #ffffff;
+  padding: 20px 0 60px 0;
 }
 
 #top .logo {
@@ -54,6 +56,41 @@ a:active {
   color: #ffffff;
 }
 
+#top .navbar {
+  margin: 0 0 64px 0;
+}
+
+/*************************************** destaques.php ****************************************/
+
+#destaques .destaques-texto {
+  display: flex;
+  flex-direction: column;
+}
+
+#destaques .destaques-texto .titulo {
+  display: block;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0 0 16px 0;
+}
+
+#destaques .destaques-texto .subtitulo {
+  display: block;
+  font-size: 18px;
+  margin: 0 0 8px 0;
+}
+
+#destaques .destaques-texto .botao {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #1c97e0;
+  width: fit-content;
+  border-radius: 5px;
+}
+
+#destaques .destaques-imagem img {
+  border-radius: 5px;
+}
 
 /*************************************** index.php ****************************************/
 
@@ -66,7 +103,13 @@ a:active {
   background-color: rgba(0,0,0,.05);
 }
 
-
+.section .titulo {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: #092f60;
+  margin: 0 0 32px 0;
+}
 
 
 #contato form {
@@ -134,6 +177,33 @@ a:active {
   transform-origin: left;
 } */
 
+/*************************************** diferenciais.php ****************************************/
+
+#diferenciais .card {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 20px;
+}
+
+#diferenciais .card .card-titulo {
+  display: block;
+  font-weight: 600;
+  color: #092f60;
+  text-align: center;
+  font-size: 26px;
+}
+
+#diferenciais .card .card-descricao {
+  display: block;
+  font-weight: 500;
+  color: #092f60;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+
+
 
 /*************************************** rdp.php ****************************************/
 
@@ -147,7 +217,6 @@ a:active {
 /*************************************** copyright.php ****************************************/
 
 #copyright {
-  margin: auto 0 0 0;
   /* background-color: #039147; */
   background-color: #2b2b2b;
   border-top: 1px solid rgba(255,255,255,.3);
