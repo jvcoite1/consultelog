@@ -221,6 +221,46 @@ a:active {
 }
 
 
+/*************************************** cta.php ****************************************/
+
+#calltoaction {
+  display: block;
+  /* text-align: center; */
+  background-color: #00346a;
+  color: #ffffff;
+}
+
+#calltoaction .cta-container {
+  background-size: contain;
+}
+
+#calltoaction .titulo {
+  display: block;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: left;
+  color: #ffffff;
+  margin: 48px 0 18px 0;
+} 
+
+#calltoaction .subtitulo {
+  display: block;
+  text-align: left;
+  color: #ffffff;
+  font-size: 18px;
+  margin: 0 0 32px 0;
+} 
+
+#calltoaction .botao {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #1c97e0;
+  width: fit-content;
+  border-radius: 5px;
+  color: #ffffff;
+} 
+
+
 
 
 /*************************************** rdp.php ****************************************/
