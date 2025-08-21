@@ -267,8 +267,13 @@ a:active {
 
 #rodape {
   padding: 64px 0;
-  background-color: #000000;
+  background-color: #ffffff;
   margin-top: auto;
+}
+
+#rodape .logo img {
+  width: 25%;
+  border-radius: 5px;
 }
 
 
@@ -319,10 +324,10 @@ a:active {
 }
 
 @media (max-width: 767.98px) {
-  #diferenciais .card {
+  #diferenciais .card,
+  #servicos .card {
     margin: 0 0 32px 0;
   }
-
 }
 
 @media (max-width: 576px) {

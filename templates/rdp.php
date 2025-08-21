@@ -1,33 +1,36 @@
 <div id="rodape">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="offset-md-1 col-md-5">
         <div class="logo">
-          <img class="img-fluid img-center" src="<?php bloginfo('template_url'); ?>/img/logo-rodape.jpg">
+          <img class="img-fluid img-center" src="<?php bloginfo('template_url'); ?>/img/logo.jpg">
+        </div>
+        <div class="sobre">
+          <span></span>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="offset-md-1 col-md-5">
         <div class="redes-sociais">
           <ul>
             
             <li>
-              <a href="https://www.instagram.com/leonardvargas_eng/" target="_blank">
-                <i class="fa fa-instagram"></i>
-                <span>@leonardvargas_eng</span>
+              <a href="" target="_blank">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <span>instagram</span>
               </a>
             </li>
 
             <li>
-              <a href="mailto:leovargas.eng@mirraengenharia.com.br?subject=Orçamento Gratuito&body=Olá, gostaria de solicitar um orçamento gratuito.">
+              <a href="mailto:...?subject=...&body=...">
                 <i class="fa fa-envelope-o"></i>
-                <span>leovargas.eng@mirraengenharia.com.br</span>
+                <span>email</span>
               </a>
             </li>
 
             <li>
-              <a href="https://wa.me/5579996008649?text=Olá, gostaria de solicitar um orçamento gratuito." target="_blank">
+              <a href="https://wa.me/...?text=" target="_blank">
                 <i class="fa fa-whatsapp"></i>
-                <span>(79) 99600-8649</span>
+                <span>whatsapp</span>
               </a>
             </li>
 
