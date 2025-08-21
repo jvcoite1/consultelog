@@ -3,7 +3,7 @@
     <div class="row">
 
       <div class="col-md-6">
-        <span>© <?php echo Date("Y"); ?> | LEONARD VARGAS - TODOS OS DIREITOS RESERVADOS</span>
+        <span>© <?php echo Date("Y"); ?> | CONSULTELOG - TODOS OS DIREITOS RESERVADOS</span>
       </div>
 
       <div class="col-md-6 d-flex">
