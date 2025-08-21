@@ -1,7 +1,7 @@
 /*************************************** GERAL ****************************************/
 
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -39,12 +39,20 @@ a:active {
   clear: both;
 }
 
+.linha {
+  display: block;
+  background-color: #007ac8;
+  height: 3px;
+  max-width: 100px;
+  margin: 0 auto 16px auto;
+}
+
 /*************************************** top.php ****************************************/
 
 #top {
-  background: linear-gradient(126deg,rgba(0, 157, 255, 1) 0%, rgba(0, 67, 122, 1) 75%);
+  background: linear-gradient(90deg,rgba(0, 157, 255, 1) 0%, rgba(0, 67, 122, 1) 75%);
   color: #ffffff;
-  padding: 20px 0 60px 0;
+  padding: 20px 0 0 0;
 }
 
 #top .logo {
@@ -57,14 +65,20 @@ a:active {
 }
 
 #top .navbar {
-  margin: 0 0 64px 0;
+  margin: 0 0 16px 0;
 }
 
 /*************************************** destaques.php ****************************************/
+#destaques {
+  background: linear-gradient(90deg,rgba(0, 157, 255, 1) 0%, rgba(0, 67, 122, 1) 75%);
+  color: #ffffff;
+  padding: 0 0 60px 0;
+}
 
 #destaques .destaques-texto {
   display: flex;
   flex-direction: column;
+  padding: 0 0 60px 0;
 }
 
 #destaques .destaques-texto .titulo {
@@ -86,6 +100,7 @@ a:active {
   background-color: #1c97e0;
   width: fit-content;
   border-radius: 5px;
+  color: #ffffff;
 }
 
 #destaques .destaques-imagem img {
@@ -96,7 +111,7 @@ a:active {
 
 
 .section {
-  padding: 90px 0 90px 0;
+  padding: 58px 0 90px 0;
 }
 
 .section:nth-child(even) {
@@ -109,7 +124,7 @@ a:active {
   font-size: 32px;
   font-weight: 600;
   color: #092f60;
-  margin: 0 0 32px 0;
+  margin: 0 0 48px 0;
   letter-spacing: 1.2px;
 }
 
@@ -221,6 +236,22 @@ a:active {
 }
 
 
+/*************************************** page-quem-somos.php ****************************************/
+
+
+
+#quem-somos .titulo span {
+  color: #004a71;
+  display: block;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+#quem-somos .capa img {
+  margin: 0 0 48px 0;
+}
+
 /*************************************** cta.php ****************************************/
 
 #calltoaction {
@@ -266,14 +297,44 @@ a:active {
 /*************************************** rdp.php ****************************************/
 
 #rodape {
-  padding: 64px 0;
+  padding: 36px 0;
   background-color: #ffffff;
   margin-top: auto;
+}
+
+#rodape .titulo {
+  display: block;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 0 16px 0;
+  color: #092f60;
+}
+
+#rodape .sobre {
+  font-weight: 500;
+  text-align: center;
+  font-size: 16px;
+}
+
+#rodape .logo {
+  margin: 0 0 16px 0;
 }
 
 #rodape .logo img {
   width: 25%;
   border-radius: 5px;
+}
+
+#rodape ul {
+  list-style-type: none;
+}
+
+#rodape ul li {
+  display: block;
+  padding: 16px 0 12px 0;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  font-weight: 500;
 }
 
 

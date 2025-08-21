@@ -1,16 +1,40 @@
 <div id="rodape">
   <div class="container">
     <div class="row">
-      <div class="offset-md-1 col-md-5">
+
+      <div class="col-md-4">
         <div class="logo">
           <img class="img-fluid img-center" src="<?php bloginfo('template_url'); ?>/img/logo.jpg">
         </div>
         <div class="sobre">
-          <span></span>
+          <span>A Consultelog é uma consultoria em logística, gestão e liderança que, desde 2009, transforma empresas e pessoas com ética, simplicidade e inovação.</span>
         </div>
       </div>
-      <div class="offset-md-1 col-md-5">
+
+      
+      <div class="col-md-4">
+        
+        <div class="menu">
+          <span class="titulo">Menu</span>
+
+          <ul>
+            <li><a href="<?php bloginfo('url'); ?>">Início</a></li>
+            <li><a href="<?php bloginfo('url') ?>/quem-somos">Quem Somos</a></li>
+            <li><a href="">Áreas de Especialização</a></li>
+            <li><a href="">Resultados</a></li>
+            <li><a href="">Artigos e Insights</a></li>
+          </ul>
+
+        </div>
+
+
+      </div>
+
+      <div class="col-md-4">
         <div class="redes-sociais">
+
+          <span class="titulo">Fale Conosco</span>
+
           <ul>
             
             <li>
@@ -36,8 +60,10 @@
 
 
           </ul>
+
         </div>
       </div>
+
     </div>
   </div>
 </div>

@@ -1,6 +1,8 @@
 <?php get_header(); ?>
 <?php get_template_part('./templates/top'); ?>
 
+<?php get_template_part('./templates/destaques'); ?>
+
 <?php get_template_part('./templates/diferenciais'); ?>
 
 <?php get_template_part('./templates/servicos'); ?>

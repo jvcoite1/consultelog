@@ -13,7 +13,7 @@
             <a class="nav-link active" aria-current="page" href="<?php bloginfo('url'); ?>">Início</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#quem-somos">Quem Somos</a>
+            <a class="nav-link" href="<?php bloginfo('url') ?>/quem-somos">Quem Somos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#especializacao">Áreas de Especialização</a>
@@ -29,7 +29,7 @@
     </div>
   </nav>
 
-  <?php get_template_part('./templates/destaques'); ?>
 
 
 </div>
+
