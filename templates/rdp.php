@@ -22,7 +22,7 @@
             <li><a href="<?php bloginfo('url') ?>/quem-somos">Quem Somos</a></li>
             <li><a href="">Áreas de Especialização</a></li>
             <li><a href="">Resultados</a></li>
-            <li><a href="">Artigos e Insights</a></li>
+            <li><a href="<?php bloginfo('url'); ?>/publicacoes">Artigos e Insights</a></li>
           </ul>
 
         </div>

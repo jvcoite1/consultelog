@@ -1,7 +1,10 @@
 <div id="diferenciais" class="section">
   <div class="container">
     <div class="row">
-      <div class="titulo">NOSSOS DIFERENCIAIS</div>
+      <div class="titulo">
+        <span>Nossos Diferenciais</span>
+        <div class="linha"></div>
+      </div>
       <div class="col-md-3">
 
         <div class="card">

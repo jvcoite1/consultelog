@@ -1,7 +1,10 @@
 <div id="servicos" class="section">
   <div class="container">
     <div class="row">
-      <div class="titulo">SERVICOS EM DESTAQUE</div>
+      <div class="titulo">
+        <span>Serviços em Destaque</span>
+        <div class="linha"></div>
+      </div>
       <div class="col-md-4">
 
         <div class="card">

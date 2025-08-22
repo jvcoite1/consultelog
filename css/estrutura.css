@@ -114,18 +114,28 @@ a:active {
   padding: 58px 0 90px 0;
 }
 
-.section:nth-child(even) {
+.section:nth-child(odd) {
   /* background-color: rgba(0,0,0,.05); */
   background-color: #f7fcff;
 }
 
 .section .titulo {
-  text-align: center;
+  display: block;
+  margin: 0 0 32px 0;
+}
+
+.section .titulo span {
+  /* text-align: center;
   font-size: 32px;
   font-weight: 600;
   color: #092f60;
   margin: 0 0 48px 0;
-  letter-spacing: 1.2px;
+  letter-spacing: 1.2px; */
+  color: #004a71;
+  display: block;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
 }
 
 
@@ -235,6 +245,12 @@ a:active {
   font-size: 78px;
 }
 
+/*************************************** page-publicacoes.php ****************************************/
+
+#publicacoes .publicacao a {
+  display: flex;
+  flex-direction: row;
+}
 
 /*************************************** page-quem-somos.php ****************************************/
 
@@ -250,6 +266,7 @@ a:active {
 
 #quem-somos .capa img {
   margin: 0 0 48px 0;
+  border-radius: 5px;
 }
 
 /*************************************** cta.php ****************************************/
@@ -385,7 +402,7 @@ a:active {
 }
 
 @media (max-width: 767.98px) {
-  #diferenciais .card,
+  ciais .card,
   #servicos .card {
     margin: 0 0 32px 0;
   }

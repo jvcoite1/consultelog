@@ -22,7 +22,7 @@
             <a class="nav-link" href="#resultados">Resultados</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#artigos">Artigos e Insights</a>
+            <a class="nav-link" href="<?php bloginfo('url'); ?>/publicacoes">Artigos e Insights</a>
           </li>
         </ul>
       </div>
