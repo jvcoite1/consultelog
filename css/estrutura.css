@@ -56,16 +56,28 @@ a:active {
 }
 
 #top .logo {
-  width: 15%;
+  /* width: 25%; */
   border-radius: 15px;
+  max-width: 150px;
 }
 
-#top a {
+#top .nav-item a {
   color: #ffffff;
+  margin: 0 15px;
+  font-weight: 600;
+}
+
+#top .navbar-nav {
+  margin: 0 0 0 auto;
 }
 
 #top .navbar {
   margin: 0 0 16px 0;
+}
+
+#top .navbar-expand-lg .navbar-collapse {
+  width: 100%;
+  /* flex-shrink: 0; */
 }
 
 /*************************************** destaques.php ****************************************/
@@ -265,7 +277,7 @@ a:active {
 }
 
 #quem-somos .capa img {
-  margin: 0 0 48px 0;
+  margin: 0 auto 48px auto;
   border-radius: 5px;
 }
 
@@ -352,6 +364,10 @@ a:active {
   padding: 16px 0 12px 0;
   border-bottom: 1px solid rgba(0,0,0,.2);
   font-weight: 500;
+}
+
+#rodape .redes-sociais i {
+  color: #007ac8;
 }
 
 

@@ -1,8 +1,8 @@
 <div id="top">
   <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid top">
+    <div class="container top">
       <a class="navbar-brand" href="<?php bloginfo('url'); ?>">
-        <img class="img-fluid img-center logo" src="<?php bloginfo('template_url'); ?>/img/logo.jpg">
+        <img class="img-fluid logo" src="<?php bloginfo('template_url'); ?>/img/logo.jpg">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -28,8 +28,6 @@
       </div>
     </div>
   </nav>
-
-
 
 </div>
 
