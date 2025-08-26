@@ -109,7 +109,7 @@ a:active {
 #destaques .destaques-texto .botao {
   display: inline-block;
   padding: 8px 16px;
-  background-color: #1c97e0;
+  background-color: #00437a;
   width: fit-content;
   border-radius: 5px;
   color: #ffffff;
@@ -259,9 +259,55 @@ a:active {
 
 /*************************************** page-publicacoes.php ****************************************/
 
+#publicacoes .publicacao {
+  background-color: #ffffff;
+  display: block;
+  margin: 0 0 32px 0;
+  box-shadow: 10px 10px 5px rgba(0,0,0,.15);
+}
+
+
 #publicacoes .publicacao a {
   display: flex;
   flex-direction: row;
+}
+
+#publicacoes .publicacao .capa {
+  /* background-size: cover !important; */
+  width: 100%;
+  height: 100%;
+}
+
+#publicacoes .publicacao .conteudo {
+  padding: 30px;
+}
+
+#publicacoes .publicacao .titulo {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 0 0 16px 0;
+  display: block;
+}
+
+#publicacoes .publicacao .resumo {
+  display: block;
+  margin: 0 0 16px 0;
+}
+
+#publicacoes .publicacao .saiba-mais {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  /* float: right; */
+  background-color: #009dff;
+  color: #ffffff;
+}
+
+/*************************************** single.php ****************************************/
+
+#single .capa img {
+  margin: 0 auto 48px auto;
+  border-radius: 5px;
 }
 
 /*************************************** page-quem-somos.php ****************************************/
@@ -367,8 +413,13 @@ a:active {
 }
 
 #rodape .redes-sociais i {
-  color: #007ac8;
+  color: #ffffff;
+  background-color: #007ac8;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 0 8px 0 0;
 }
+
 
 
 /*************************************** copyright.php ****************************************/

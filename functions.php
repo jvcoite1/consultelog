@@ -12,4 +12,12 @@ function get_video_thumb($link) {
   return $thumbnail;
 }
 
+/** 
+  *Limita os caracteres da string
+*/
+function limitarCaracteres($str, $limit) {
+
+  echo substr($str, 0, $limit - 6) . " [...]";
+
+}
 ?>

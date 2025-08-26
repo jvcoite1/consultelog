@@ -27,30 +27,29 @@
               if(has_post_thumbnail()) {
               ?>
               <div class="col-md-4">
-                <div class="capa">
-                  <img class="img-fluid img-center" src="<?php the_post_thumbnail_url(); ?>">
+                <div class="capa" style="background: url(<?php the_post_thumbnail_url(); ?>) no-repeat center center / cover">
+                  <!-- <img class="img-fluid img-center" src="<?php //the_post_thumbnail_url(); ?>"> -->
                 </div>
               </div>
 
               <div class="col-md-8">
                 <div class="conteudo">
                   <span class="titulo"><?php the_title(); ?></span>
-                  <span class="resumo"><?php the_excerpt(); ?></span>
-                  <div class="mais"></div>
+                  <span class="resumo"><?php limitarCaracteres(get_the_excerpt(), 200); ?></span>
+                  <div class="saiba-mais"><span>Saiba mais <i class="fa fa-angle-double-right" aria-hidden="true"></i></span></div>
                 </div>
               </div>
 
               <?php
               } else {
-
               ?>
 
               <div class="col-md-12">
                 
                 <div class="conteudo">
                   <span class="titulo"><?php the_title(); ?></span>
-                  <span class="resumo"><?php the_excerpt(); ?></span>
-                  <div class="mais"></div>
+                  <span class="resumo"><?php limitarCaracteres(get_the_excerpt(), 200); ?></span>
+                  <div class="saiba-mais">Saiba mais</div>
                 </div>
 
               </div>
@@ -73,6 +72,7 @@
       </div>
     </div>
   </div>
+
 </div>
 
 <?php get_template_part('./templates/rdp'); ?>
