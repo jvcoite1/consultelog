@@ -23,41 +23,42 @@
         
           <div class="publicacao">
             <a href="<?php the_permalink(); ?>">
-              <?php
-              if(has_post_thumbnail()) {
-              ?>
-              <div class="col-md-4">
-                <div class="capa" style="background: url(<?php the_post_thumbnail_url(); ?>) no-repeat center center / cover">
-                  <!-- <img class="img-fluid img-center" src="<?php //the_post_thumbnail_url(); ?>"> -->
-                </div>
-              </div>
-
-              <div class="col-md-8">
-                <div class="conteudo">
-                  <span class="titulo"><?php the_title(); ?></span>
-                  <span class="resumo"><?php limitarCaracteres(get_the_excerpt(), 200); ?></span>
-                  <div class="saiba-mais"><span>Saiba mais <i class="fa fa-angle-double-right" aria-hidden="true"></i></span></div>
-                </div>
-              </div>
-
-              <?php
-              } else {
-              ?>
-
-              <div class="col-md-12">
-                
-                <div class="conteudo">
-                  <span class="titulo"><?php the_title(); ?></span>
-                  <span class="resumo"><?php limitarCaracteres(get_the_excerpt(), 200); ?></span>
-                  <div class="saiba-mais">Saiba mais</div>
+              <div class="row">
+                <?php
+                if(has_post_thumbnail()) {
+                ?>
+                <div class="col-md-4">
+                  <div class="capa" style="background: url(<?php the_post_thumbnail_url(); ?>) no-repeat center center / cover">
+                    <!-- <img class="img-fluid img-center" src="<?php //the_post_thumbnail_url(); ?>"> -->
+                  </div>
                 </div>
 
+                <div class="col-md-8">
+                  <div class="conteudo">
+                    <span class="titulo"><?php the_title(); ?></span>
+                    <span class="resumo"><?php limitarCaracteres(get_the_excerpt(), 200); ?></span>
+                    <div class="saiba-mais"><span>Saiba mais <i class="fa fa-angle-double-right" aria-hidden="true"></i></span></div>
+                  </div>
+                </div>
+
+                <?php
+                } else {
+                ?>
+
+                <div class="col-md-12">
+                  
+                  <div class="conteudo">
+                    <span class="titulo"><?php the_title(); ?></span>
+                    <span class="resumo"><?php limitarCaracteres(get_the_excerpt(), 200); ?></span>
+                    <div class="saiba-mais">Saiba mais</div>
+                  </div>
+
+                </div>
+
+                <?php
+                }
+                ?>
               </div>
-
-              <?php
-              }
-              ?>
-
             </a>
           </div>
 
