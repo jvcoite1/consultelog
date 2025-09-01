@@ -26,10 +26,10 @@
               <a class="nav-link" href="<?php bloginfo('url') ?>/quem-somos">Quem Somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#especializacao">Áreas de Especialização</a>
+              <a class="nav-link" href="<?php bloginfo('url'); ?>/#servicos">Áreas de Especialização</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#resultados">Resultados</a>
+              <a class="nav-link" href="">Resultados</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="<?php bloginfo('url'); ?>/publicacoes">Artigos e Insights</a>
