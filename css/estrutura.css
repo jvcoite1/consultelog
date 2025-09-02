@@ -126,7 +126,6 @@ a:active {
 } */
 
 
-
 #destaques {
   background: linear-gradient(90deg, #009dff 0%, #00437a 75%);
   color: #fff;
@@ -602,7 +601,39 @@ a:active {
   }
 
   #destaques .destaques-texto .botao {
+    margin: 0 0 52px 0;
+  }
+
+  #calltoaction .titulo {
+    text-align: center;
+  }
+
+  #calltoaction .subtitulo {
+    text-align: center;
+  }
+
+  #calltoaction .capa {
+    display: none;
+  }
+
+  #rodape .sobre {
     margin: 0 0 32px 0;
+  }
+
+  #rodape .titulo {
+    text-align: center;
+  }
+
+  #rodape ul {
+    padding: 0;
+  }
+
+  #rodape .menu ul li {
+    text-align: center;
+  }
+
+  #rodape .menu {
+    margin: 0 0 52px 0;
   }
 }
 
