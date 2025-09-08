@@ -64,6 +64,25 @@ a:active {
   color: #ffffff;
   margin: 0 15px;
   font-weight: 600;
+  position: relative;
+}
+
+#top .nav-item a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 4px;
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #ffffff;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .3s ease;
+}
+
+#top .nav-item a:hover::after {
+  transform: scaleX(1);
 }
 
 #top .navbar-nav {
@@ -373,7 +392,6 @@ a:active {
 /*************************************** page-quem-somos.php ****************************************/
 
 
-
 #quem-somos .titulo span {
   color: #005eb8;
   display: block;
@@ -481,11 +499,6 @@ a:active {
   color: #cce6ff;
 }
 
-
-
-
-
-
 /*************************************** rdp.php ****************************************/
 
 #rodape {
@@ -538,8 +551,6 @@ a:active {
   margin: 0 8px 0 0;
 }
 
-
-
 /*************************************** copyright.php ****************************************/
 
 #copyright {
@@ -563,7 +574,6 @@ a:active {
   align-self: center;
   margin: 10px auto;
 }
-
 
 /*************************************** MOBILE ****************************************/
 
@@ -634,6 +644,10 @@ a:active {
 
   #rodape .menu {
     margin: 0 0 52px 0;
+  }
+
+  #calltoaction .titulo {
+    font-size: 38px;
   }
 }
 
