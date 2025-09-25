@@ -40,21 +40,21 @@
             <li>
               <a href="" target="_blank">
                 <i class="fa fa-instagram" aria-hidden="true"></i>
-                <span>instagram</span>
+                <span>Instagram</span>
               </a>
             </li>
 
             <li>
               <a href="mailto:...?subject=...&body=...">
                 <i class="fa fa-envelope-o"></i>
-                <span>email</span>
+                <span>Email</span>
               </a>
             </li>
 
             <li>
               <a href="https://wa.me/...?text=" target="_blank">
                 <i class="fa fa-whatsapp"></i>
-                <span>whatsapp</span>
+                <span>Whatsapp</span>
               </a>
             </li>
 
