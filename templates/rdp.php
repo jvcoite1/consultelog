@@ -4,7 +4,7 @@
 
       <div class="col-md-4">
         <div class="logo">
-          <img class="img-fluid img-center" src="<?php bloginfo('template_url'); ?>/img/logo.jpg">
+          <img class="img-fluid img-center" src="<?php bloginfo('template_url'); ?>/img/logo-vertical.png">
         </div>
         <div class="sobre">
           <span>A Consultelog é uma consultoria em logística, gestão e liderança que, desde 2009, transforma empresas e pessoas com ética, simplicidade e inovação.</span>

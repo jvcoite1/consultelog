@@ -56,8 +56,8 @@ a:active {
 }
 
 #top .logo {
-  border-radius: 15px;
-  max-width: 150px;
+  max-width: 350px;
+  filter: brightness(0) invert(1);
 }
 
 #top .nav-item a {
@@ -530,7 +530,7 @@ a:active {
 }
 
 #rodape .logo img {
-  width: 50%;
+  width: 75%;
   border-radius: 5px;
 }
 

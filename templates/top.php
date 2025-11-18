@@ -2,11 +2,9 @@
   <nav class="navbar navbar-expand-lg">
     <div class="container top">
 
-
-
       <div class="col">
         <a class="navbar-brand" href="<?php bloginfo('url'); ?>">
-          <img class="img-fluid logo" src="<?php bloginfo('template_url'); ?>/img/logo.jpg">
+          <img class="img-fluid logo" src="<?php bloginfo('template_url'); ?>/img/logo-horizontal-2.png">
         </a>
       </div>
 
