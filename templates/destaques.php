@@ -13,7 +13,7 @@
       <div class="col-md-5">
         <div class="destaques-imagem">
           <div class="capa">
-            <img class="img-fluid img-center" src="<?php bloginfo('template_url'); ?>/img/placeholder.jpg">
+            <img class="img-fluid img-center" src="<?php bloginfo('template_url'); ?>/img/logo-opcional.png">
           </div>
         </div>
       </div>

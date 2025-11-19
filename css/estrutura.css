@@ -57,7 +57,7 @@ a:active {
 
 #top .logo {
   max-width: 350px;
-  filter: brightness(0) invert(1);
+  /* filter: brightness(0) invert(1); */
 }
 
 #top .nav-item a {
@@ -191,10 +191,10 @@ a:active {
   height: 100%;
 }
 
-#destaques .destaques-imagem img {
+/* #destaques .destaques-imagem img {
   border-radius: 8px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
-}
+} */
 
 /*************************************** index.php ****************************************/
 
