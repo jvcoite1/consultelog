@@ -6,7 +6,7 @@
         <div class="destaques-texto">
           <span class="titulo">CONSULTORIA QUE TRANSFORMA RESULTADOS</span>
           <span class="subtitulo">Soluções estratégicas de logística, gestão de processos e liderança para empresas de excelência.</span>
-          <a class="botao" href="#">SOLICITE UM DIAGNÓSTICO</a>
+          <a class="botao" href="https://wa.me/+5577998408515?text=Olá, gostaria de solicitar um orçamento." target="_blank">SOLICITE UM DIAGNÓSTICO</a>
         </div>
       </div>
 

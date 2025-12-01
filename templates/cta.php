@@ -10,7 +10,7 @@
           <p class="subtitulo">
             Descubra onde sua empresa pode ganhar mais eficiência. Solicite um diagnóstico gratuito agora mesmo.
           </p>
-          <a class="botao" href="">
+          <a class="botao" href="https://wa.me/+5577998408515?text=Olá, gostaria de solicitar um orçamento." target="_blank">
             <i class="fas fa-chart-line"></i> QUERO MEU DIAGNÓSTICO
           </a>
           <span class="zap">✔ Atendimento rápido via WhatsApp</span>

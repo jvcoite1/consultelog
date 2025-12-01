@@ -293,6 +293,12 @@ a:active {
   transform-origin: left;
 } */
 
+/*************************************** cotacoes.php ****************************************/
+
+#cotacao .cotacoes-container iframe {
+  height: 275px;
+}
+
 /*************************************** diferenciais.php e servicos.php ****************************************/
 
 .card {
@@ -551,6 +557,9 @@ a:active {
   padding: 15px;
   border-radius: 5px;
   margin: 0 8px 0 0;
+  width: 45px;
+  height: 45px;
+  text-align: center;
 }
 
 /*************************************** copyright.php ****************************************/

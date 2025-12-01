@@ -38,23 +38,23 @@
           <ul>
             
             <li>
-              <a href="" target="_blank">
+              <a href="https://www.instagram.com/consultelog" target="_blank">
                 <i class="fa fa-instagram" aria-hidden="true"></i>
-                <span>Instagram</span>
+                <span>@consultelog</span>
               </a>
             </li>
 
             <li>
-              <a href="mailto:...?subject=...&body=...">
+              <a href="mailto:contato@consultelog.com.br?subject=Orçamento&body=Olá, gostaria de solicitar um orçamento.">
                 <i class="fa fa-envelope-o"></i>
-                <span>Email</span>
+                <span>contato@consultelog.com.br</span>
               </a>
             </li>
 
             <li>
-              <a href="https://wa.me/...?text=" target="_blank">
+              <a href="https://wa.me/+5577998408515?text=Olá, gostaria de solicitar um orçamento." target="_blank">
                 <i class="fa fa-whatsapp"></i>
-                <span>Whatsapp</span>
+                <span>(77) 99840-8515</span>
               </a>
             </li>
 

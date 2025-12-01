@@ -13,7 +13,7 @@
             <div class="linha"></div>
           </div>
 
-          <div class="capa"><img class="img-fluid img-center" src="<?php bloginfo('template_url'); ?>/img/placeholder.jpg"></div>
+          <div class="capa"><img class="img-fluid img-center" src="<?php bloginfo('template_url'); ?>/img/monocromatico-3.jpg"></div>
 
           <div class="conteudo">
             <p>A Consultelog nasceu como uma ideia ousada durante um projeto acadêmico, ainda no período de pós-graduação. O objetivo era simples, mas ambicioso: criar uma consultoria capaz de unir conhecimento técnico, experiência prática e visão estratégica para transformar negócios e pessoas.</p>
